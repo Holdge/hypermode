@@ -1,6 +1,6 @@
 # HyperMode Privacy Policy / 隐私政策
 
-Updated: 2026-10-12. Publisher: Holdge. Contact: holdgewong@gmail.com.
+Updated: 2026-11-04. Publisher: Holdge. Contact: holdgewong@gmail.com.
 
 ## Local data / 本机数据
 HyperMode stores workspaces, folders, favorites, conversation history, selected attachments and optional screenshot previews in your browser extension storage. It does not use browser account sync storage. The publisher operates no analytics or conversation collection server and does not sell user data.
@@ -18,10 +18,14 @@ Tab titles, URLs and loading state are used to display, search and manage browse
 An optional local companion manages workspaces through CLI / MCP and imports Arc workspace directory metadata on macOS. It does not import passwords or cookies. Its authenticated communication is restricted to the local machine.
 
 ## Control and deletion / 控制与删除
-You can remove your API key through AI settings, disable optional features and revoke browser permissions. Conversations can be moved to trash; version 2.0.0 does not provide a permanent-empty-trash control. Uninstalling the extension normally removes its browser extension storage. Export data you need before uninstalling. Exported backups and optional companion files remain under your control and must be deleted separately. Data already sent to an AI provider is subject to that provider's retention and deletion process.
+You can remove your API key through AI settings, disable optional features and revoke browser permissions. Conversations can be moved to trash; this version does not provide a permanent-empty-trash control. Uninstalling the extension normally removes its browser extension storage. Export data you need before uninstalling. Exported backups and optional companion files remain under your control and must be deleted separately. Data already sent to an AI provider is subject to that provider's retention and deletion process.
 
 ## Limited use / 使用限制
 The use and transfer of information received from Google APIs will adhere to the Chrome Web Store User Data Policy, including the Limited Use requirements. Data is used only to provide user-facing workspace, search and AI features. It is not used for advertising, sold to data brokers, or used by the publisher to train generalized AI models.
 
 ## Contact / 联系
 For privacy questions, contact holdgewong@gmail.com. Do not include API keys, passwords, private conversations or confidential files in a public support issue.
+
+## Web search / 网页搜索
+
+General web searches use Chrome Search API and the default provider selected in Chrome. Query text is sent to that provider under its privacy policy. HyperMode does not read, modify or replace the default search setting and does not operate a query-collection server. Saved search queries stay in local extension storage. Explicit site-scoped searches go to the selected website. 普通网页搜索遵循 Chrome 默认搜索服务；搜索记录保存在本机。
