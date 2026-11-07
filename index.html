@@ -1,1 +1,71 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>HyperMode</title><style>body{margin:0;background:#f8f7fc;color:#282332;font:16px/1.75 system-ui,sans-serif}main{max-width:800px;margin:64px auto;padding:32px}h1{font-size:36px;letter-spacing:-1px}h2{font-size:21px;margin-top:36px}a{color:#6d48df}p{color:#534d60}nav{display:flex;gap:24px}footer{margin-top:50px;color:#777}</style><main><h1>HyperMode</h1><p>用 Space 整理网页，在统一入口搜索页面、历史与对话，并连接你选择的 AI 服务。</p><h2>浏览与思考，在同一处继续</h2><p>空间与目录、全局收藏、标签实例复用、统一搜索、流式 AI 对话与本机附件处理。</p><p>日常功能无需安装本机工具。AI 服务由你自行配置。工作区和对话保存在本机。</p><nav><a href="privacy.html">隐私政策 / Privacy</a><a href="mailto:holdgewong@gmail.com">联系支持</a></nav><footer>Holdge · HyperMode 2.0.0</footer></main></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Arcome 把 Arc 的 Space、固定页和文件夹工作流带到 Chrome。">
+  <title>Arcome · 把 Space 带到 Chrome</title>
+  <link rel="icon" href="assets/arcome-128.png" type="image/png">
+  <style>
+    :root{color-scheme:light;--ink:#262a35;--muted:#565b6a;--accent:#204ca6;--paper:#faf7f1;--line:#e4ded4}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 system-ui,sans-serif}
+    .frame{max-width:1120px;margin:auto;padding-inline:clamp(20px,5vw,48px)}
+    header,footer{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-block:24px}
+    header a{display:inline-flex;align-items:center;gap:10px;color:inherit;font-weight:700;text-decoration:none}
+    header img{width:34px;height:34px}
+    a{color:var(--accent);text-underline-offset:.2em}
+    a:focus-visible{outline:2px solid var(--accent);outline-offset:5px;border-radius:4px}
+    nav{display:flex;gap:20px;flex-wrap:wrap;font-size:.875rem}
+    .hero{padding-block:clamp(36px,8vw,88px) 48px;border-top:1px solid var(--line)}
+    .eyebrow{margin:0 0 12px;color:var(--accent);font-size:.875rem;font-weight:700}
+    h1{max-width:820px;margin:0;font-size:clamp(2.25rem,6vw,4.7rem);line-height:1.13;letter-spacing:-.055em;text-wrap:balance}
+    .hero p:not(.eyebrow){max-width:620px;margin:20px 0 28px;color:var(--muted);font-size:clamp(1rem,2.3vw,1.18rem)}
+    .install{display:inline-block;padding:10px 18px;border-radius:10px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+    h2{margin:0 0 16px;font-size:clamp(1.45rem,4vw,2rem);letter-spacing:-.025em}
+    .screens{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    figure{margin:0;overflow:hidden;background:#fffdf9;border:1px solid var(--line);border-radius:16px}
+    figure a{display:block}
+    figure a:focus-visible{outline-offset:-4px}
+    figure img{display:block;width:100%;height:auto;background:#f2eef5}
+    figcaption{padding:16px 20px 20px}
+    figcaption strong{display:block;font-size:1.05rem}
+    figcaption p{margin:6px 0 0;color:var(--muted);font-size:.94rem}
+    footer{margin-top:56px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
+    @media(max-width:680px){.screens{grid-template-columns:1fr}footer{margin-top:36px}}
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <header>
+      <a href="./"><img src="assets/arcome-128.png" width="34" height="34" alt="">Arcome</a>
+      <nav aria-label="网站导航"><a href="#preview">功能预览</a><a href="privacy.html">隐私政策</a></nav>
+    </header>
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Chrome 工作区扩展</p>
+        <h1>从 Arc 搬到 Chrome，带上你的 Space。</h1>
+        <p>在左侧栏切换 Space，用固定页和文件夹整理常用网页。暂时不用的页面可以收起，需要时再打开。</p>
+        <a class="install" href="https://chromewebstore.google.com/detail/jaeenjkppebfbkegfienpcoomlnnhkgp">在 Chrome 应用商店查看</a>
+      </section>
+      <section id="preview" aria-labelledby="preview-title">
+        <h2 id="preview-title">看看 Space 怎么用</h2>
+        <div class="screens">
+          <figure>
+            <a href="assets/arcome-space-sidebar.jpg"><img src="assets/arcome-space-sidebar.jpg" width="1280" height="800" alt="Arcome 左侧栏展示顶部收藏、固定页、展开的文件夹、已收起的临时页和底部 Space 切换入口"></a>
+            <figcaption><strong>在左侧栏切换 Space</strong><p>顶部收藏跨 Space 共享。每个 Space 分开保存固定页、文件夹和临时页。收起临时页后，记录仍在，可以逐个恢复。</p></figcaption>
+          </figure>
+          <figure>
+            <a href="assets/arcome-space-library.jpg"><img src="assets/arcome-space-library.jpg" width="1280" height="800" alt="所有 Space 管理页，左侧列出各个 Space，右侧展示各 Space 的固定入口和临时记录"></a>
+            <figcaption><strong>在一个页面整理所有 Space</strong><p>左侧按 Space 筛选。右侧可查找、多选和移动网页或文件夹。</p></figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <span>Arcome 原名 HyperMode，由 Holdge 独立开发，与 Arc 无隶属关系。</span>
+      <a href="mailto:holdgewong@gmail.com">联系支持</a>
+    </footer>
+  </div>
+</body>
+</html>

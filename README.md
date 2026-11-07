@@ -1,4 +1,4 @@
-# HyperMode
+# Arcome
 
 Public product information and privacy policy. No browser profiles, API keys, conversations or development data are included.
 

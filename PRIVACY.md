@@ -1,9 +1,9 @@
-# HyperMode Privacy Policy / 隐私政策
+# Arcome Privacy Policy / 隐私政策
 
 Updated: 2026-11-04. Publisher: Holdge. Contact: holdgewong@gmail.com.
 
 ## Local data / 本机数据
-HyperMode stores workspaces, folders, favorites, conversation history, selected attachments and optional screenshot previews in your browser extension storage. It does not use browser account sync storage. The publisher operates no analytics or conversation collection server and does not sell user data.
+Arcome stores workspaces, folders, favorites, conversation history, selected attachments and optional screenshot previews in your browser extension storage. It does not use browser account sync storage. The publisher operates no analytics or conversation collection server and does not sell user data.
 
 ## AI services / AI 服务
 You choose and configure an AI service. When you submit a question, your question, relevant conversation messages and the context or attachments you selected are sent to that service. Images are compressed; text, PDF and Word documents are parsed locally. Connection validation sends your API key to the selected service with a model-list request. External AI website handoff fills your question and selected text context into the website. Automatic sending can be disabled. Each provider handles requests under its own privacy policy. The extension does not include a publisher-provided AI account or API key.
@@ -28,4 +28,4 @@ For privacy questions, contact holdgewong@gmail.com. Do not include API keys, pa
 
 ## Web search / 网页搜索
 
-General web searches use Chrome Search API and the default provider selected in Chrome. Query text is sent to that provider under its privacy policy. HyperMode does not read, modify or replace the default search setting and does not operate a query-collection server. Saved search queries stay in local extension storage. Explicit site-scoped searches go to the selected website. 普通网页搜索遵循 Chrome 默认搜索服务；搜索记录保存在本机。
+General web searches use Chrome Search API and the default provider selected in Chrome. Query text is sent to that provider under its privacy policy. Arcome does not read, modify or replace the default search setting and does not operate a query-collection server. Saved search queries stay in local extension storage. Explicit site-scoped searches go to the selected website. 普通网页搜索遵循 Chrome 默认搜索服务；搜索记录保存在本机。
