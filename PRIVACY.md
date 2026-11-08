@@ -1,6 +1,6 @@
 # Arcome Privacy Policy / 隐私政策
 
-Updated: 2026-11-04. Publisher: Holdge. Contact: holdgewong@gmail.com.
+Updated: 2026-11-08. Publisher: Holdge. Contact: holdgewong@gmail.com.
 
 ## Local data / 本机数据
 Arcome stores workspaces, folders, favorites, conversation history, selected attachments and optional screenshot previews in your browser extension storage. It does not use browser account sync storage. The publisher operates no analytics or conversation collection server and does not sell user data.
@@ -13,6 +13,12 @@ API keys remain in the current browser session by default. If you explicitly ena
 
 ## Browser access / 浏览器权限
 Tab titles, URLs and loading state are used to display, search and manage browser instances. Optional history access enables browser-history search after permission is granted. Optional page preview access captures only visible ordinary web pages already in the workspace; it excludes incognito and browser-internal pages. Screenshot previews are local and capped at 80 images, seven days and approximately 5 MB. Disabling previews clears the screenshot cache. Optional website access is used for the selected AI endpoint and page previews. External AI scripts operate on supported AI websites for input handoff.
+
+## Optional Web Workbench / 可选网页工作台
+
+The optional Web Workbench requests scripting access and access to the site you choose. When you send a question or run a webpage task, the text, title, and links needed for that request, plus relevant conversation context, are sent to the AI service you configured. Generating an appearance preview may send the page title and labels for candidate areas to that service. The workbench does not read passwords or existing input values. It asks for confirmation before opening a link, clicking a page control, or filling a field. It stores the current-page conversation in browser session storage and saved appearance rules on the device. Saved rules are applied locally when you revisit an authorized site. You can revoke access in Chrome's extension settings.
+
+网页工作台是可选功能。启用时会申请脚本权限和你选择的站点权限。发送网页提问或运行网页任务时，所需的页面正文、标题、链接和相关对话会发送给你配置的 AI 服务。生成外观预览时，可能会发送页面标题和可调整区域的标签。工作台不读取密码或输入框里已有的值，打开链接、点击控件或填入文字前会请你确认。当前页的对话保存在浏览器会话中，保存的外观规则留在本机，并在你再次访问已授权站点时本地应用。你可以在 Chrome 扩展设置中撤销授权。
 
 ## Optional local tools / 可选本机工具
 An optional local companion manages workspaces through CLI / MCP and imports Arc workspace directory metadata on macOS. It does not import passwords or cookies. Its authenticated communication is restricted to the local machine.
