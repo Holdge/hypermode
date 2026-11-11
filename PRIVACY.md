@@ -1,6 +1,6 @@
 # Arcome Privacy Policy / 隐私政策
 
-Updated: 2026-11-08. Publisher: Holdge. Contact: holdgewong@gmail.com.
+Updated: 2026-11-11. Publisher: Holdge. Contact: holdgewong@gmail.com.
 
 ## Local data / 本机数据
 Arcome stores workspaces, folders, favorites, conversation history, selected attachments and optional screenshot previews in your browser extension storage. It does not use browser account sync storage. The publisher operates no analytics or conversation collection server and does not sell user data.
@@ -19,6 +19,11 @@ Tab titles, URLs and loading state are used to display, search and manage browse
 The optional Web Workbench requests scripting access and access to the site you choose. When you send a question or run a webpage task, the text, title, and links needed for that request, plus relevant conversation context, are sent to the AI service you configured. Generating an appearance preview may send the page title and labels for candidate areas to that service. The workbench does not read passwords or existing input values. It asks for confirmation before opening a link, clicking a page control, or filling a field. It stores the current-page conversation in browser session storage and saved appearance rules on the device. Saved rules are applied locally when you revisit an authorized site. You can revoke access in Chrome's extension settings.
 
 网页工作台是可选功能。启用时会申请脚本权限和你选择的站点权限。发送网页提问或运行网页任务时，所需的页面正文、标题、链接和相关对话会发送给你配置的 AI 服务。生成外观预览时，可能会发送页面标题和可调整区域的标签。工作台不读取密码或输入框里已有的值，打开链接、点击控件或填入文字前会请你确认。当前页的对话保存在浏览器会话中，保存的外观规则留在本机，并在你再次访问已授权站点时本地应用。你可以在 Chrome 扩展设置中撤销授权。
+
+## Homepage calendar / 首页万年历
+The optional homepage calendar requests historical events from Chinese Wikipedia using the selected month and day. Like other network requests, it may expose your IP address to that service. It does not include workspace content, conversations or credentials. Holiday references open only when you follow a source link. The programmer almanac is generated locally for the selected date. You can hide the calendar in appearance settings.
+
+首页万年历可在外观设置中关闭。历史事件请求只包含所选月、日，网络连接可能向中文维基百科披露设备 IP 地址，不附带工作区、对话或密钥。放假说明带有来源链接，程序员黄历按所选日期在本机生成。
 
 ## Optional local tools / 可选本机工具
 An optional local companion manages workspaces through CLI / MCP and imports Arc workspace directory metadata on macOS. It does not import passwords or cookies. Its authenticated communication is restricted to the local machine.
