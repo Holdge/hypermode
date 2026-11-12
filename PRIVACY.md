@@ -1,6 +1,6 @@
 # Arcome Privacy Policy / 隐私政策
 
-Updated: 2026-11-11. Publisher: Holdge. Contact: holdgewong@gmail.com.
+Updated: 2026-11-12. Publisher: Holdge. Contact: holdgewong@gmail.com.
 
 ## Local data / 本机数据
 Arcome stores workspaces, folders, favorites, conversation history, selected attachments and optional screenshot previews in your browser extension storage. It does not use browser account sync storage. The publisher operates no analytics or conversation collection server and does not sell user data.
@@ -12,7 +12,9 @@ You choose and configure an AI service. When you submit a question, your questio
 API keys remain in the current browser session by default. If you explicitly enable remembering a key, the extension stores it locally. This storage is not a separate encrypted credential vault. A key saved for one API endpoint is not automatically reused at another endpoint.
 
 ## Browser access / 浏览器权限
-Tab titles, URLs and loading state are used to display, search and manage browser instances. Optional history access enables browser-history search after permission is granted. Optional page preview access captures only visible ordinary web pages already in the workspace; it excludes incognito and browser-internal pages. Screenshot previews are local and capped at 80 images, seven days and approximately 5 MB. Disabling previews clears the screenshot cache. Optional website access is used for the selected AI endpoint and page previews. External AI scripts operate on supported AI websites for input handoff.
+Tab titles, URLs and loading state are used to display, search and manage browser instances. Optional history access enables local browser-history browsing and search after permission is granted. The homepage can display visited web pages by date and reopen them. Loaded history results remain in the current page memory and are not copied to a separate persistent history database or automatically sent to an AI service. Optional page preview access captures only visible ordinary web pages already in the workspace; it excludes incognito and browser-internal pages. Screenshot previews are local and capped at 80 images, seven days and approximately 5 MB. Disabling previews clears the screenshot cache. Optional website access is used for the selected AI endpoint and page previews. External AI scripts operate on supported AI websites for input handoff.
+
+首页访问历史需要单独授权。可按日期查看、搜索和重新打开此浏览器访问过的网页，不限 Space。已加载结果仅保留在当前页面内存中，不额外创建历史数据库，也不会自动发送给 AI。Chrome 删除历史或撤销权限后，列表会清除或更新。
 
 ## Optional Web Workbench / 可选网页工作台
 
